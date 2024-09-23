@@ -1,13 +1,9 @@
 
-Dictionary<string, int> inventory = new Dictionary<string, int>
-{
-    { "Widget", 10 }
-};
 // calculate the amount of products sold
 void UpdateInventory(string product, int quantity)
 {
-    inventory[product] -= quantity;
-    Console.WriteLine(quantity + " units of " + product + " sold.");
+    return inventory[product] = quantity
 }
-
-UpdateInventory("Widget", 5);
+const productName = "Widget"
+inventory[productName] = UpdateInventory(productName, 5);
+Console.WriteLine(quantity + " units of " + product + " sold.");

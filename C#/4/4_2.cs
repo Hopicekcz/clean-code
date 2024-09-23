@@ -9,7 +9,5 @@ Dictionary<string, int> settings = new Dictionary<string, int>
 void AdjustBrightness(int level)
 {
     settings["brightness"] = level;
-    Console.WriteLine("Brightness set to: " + settings["brightness"]);
 }
-
-AdjustBrightness(80);
+Console.WriteLine("Brightness set to: " + settings["brightness"]);

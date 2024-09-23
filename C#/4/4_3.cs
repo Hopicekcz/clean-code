@@ -15,4 +15,4 @@ void Logout()
     Console.WriteLine("User logged out.");
 }
 
-Logout();
+
